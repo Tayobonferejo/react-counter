@@ -1,5 +1,6 @@
 import MyComponent from "./MyComponent";
 import Counter from "./counter.jsx"
+import Component from "./UseState.jsx";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
         {/* <MyComponent></MyComponent> */}
         <Counter></Counter>
+        <Component></Component>
     </>
     )
 }
