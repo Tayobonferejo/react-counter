@@ -5,7 +5,7 @@ import Counter from "./counter.jsx"
 function App() {
     return(
     <>
-        <MyComponent></MyComponent>
+        {/* <MyComponent></MyComponent> */}
         <Counter></Counter>
     </>
     )
