@@ -1,14 +1,10 @@
-import MyComponent from "./MyComponent";
-import Counter from "./counter.jsx"
-import Component from "./UseState.jsx";
+import ColorPicker from "./ColorPicker.jsx"
 
 
 function App() {
     return(
     <>
-        {/* <MyComponent></MyComponent> */}
-        <Counter></Counter>
-        <Component></Component>
+        <ColorPicker></ColorPicker>
     </>
     )
 }
