@@ -9,6 +9,7 @@ function Component() {
     return (<div>
         <p>Your favorite car is: {car.year} {car.make} {car.model}</p>
         <input type="number" value={car.year} onChange={handleYearChange}></input>
+        <input type="number" value={car.make} onChange={handleYearChange}></input>
     </div>)
 }
 
